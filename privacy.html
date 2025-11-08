@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>King's Ascend 隱私條款</title>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<style>
+:root {
+  --color-background: #EEE2D0;
+  --color-surface: #FDF5E6;
+  --color-layer: #F4E8D5;
+  --color-layer-muted: #E0D2B5;
+  --color-text-primary: #2B1A12;
+  --color-text-secondary: #4B2E21;
+  --color-text-tertiary: #6F4E37;
+  --color-accent: #B45309;
+  --color-highlight: #F7E7CE;
+  --radius-large: 26px;
+  --radius-medium: 20px;
+  --radius-small: 14px;
+  --shadow-soft: 0 20px 40px rgba(43, 26, 18, 0.12);
+}
+* { box-sizing: border-box; }
+::selection { background: var(--color-accent); color: var(--color-surface); }
+body { margin: 0; font-family: "Noto Sans TC", "Segoe UI", sans-serif; background: var(--color-background); color: var(--color-text-primary); opacity: 0; transition: opacity 0.32s ease; }
+body.page-visible { opacity: 1; }
+main { max-width: 960px; margin: 0 auto; padding: 56px 28px 80px; display: flex; flex-direction: column; gap: 42px; }
+header { display: flex; flex-direction: column; gap: 26px; }
+.breadcrumb { font-size: 15px; color: var(--color-text-tertiary); display: flex; gap: 6px; align-items: center; }
+.breadcrumb a { color: var(--color-text-secondary); text-decoration: none; font-weight: 600; }
+.brand { display: flex; align-items: center; gap: 18px; }
+.hero { display: flex; flex-direction: column; gap: 8px; }
+.hero-title { font-size: 38px; font-weight: 700; letter-spacing: 0.04em; }
+.hero-subtitle { font-size: 18px; color: var(--color-text-tertiary); max-width: 620px; }
+.section { background: var(--color-surface); border: 2px solid var(--color-text-secondary); border-radius: var(--radius-large); padding: 34px; display: flex; flex-direction: column; gap: 22px; box-shadow: var(--shadow-soft); }
+.section-title { font-size: 30px; font-weight: 700; }
+.section-meta { font-size: 15px; color: var(--color-text-tertiary); }
+.section-body { display: flex; flex-direction: column; gap: 20px; font-size: 16px; line-height: 1.78; }
+.section-body strong { font-weight: 700; }
+.section-list { padding-left: 20px; display: flex; flex-direction: column; gap: 12px; }
+.section-list li { line-height: 1.7; }
+.footer { display: flex; justify-content: space-between; align-items: center; font-size: 14px; color: var(--color-text-secondary); margin-top: 20px; flex-wrap: wrap; gap: 12px; }
+.footer a { color: var(--color-text-primary); text-decoration: none; font-weight: 600; padding: 10px 14px; border-radius: var(--radius-small); border: 2px solid var(--color-text-secondary); background: var(--color-layer-muted); }
+.back-to-top { position: fixed; right: 28px; bottom: 32px; padding: 0; width: 52px; height: 52px; border-radius: 50%; background: var(--color-text-secondary); color: var(--color-highlight); font-weight: 600; border: none; cursor: pointer; box-shadow: var(--shadow-soft); opacity: 0; pointer-events: none; transition: opacity 0.24s ease; display: flex; align-items: center; justify-content: center; font-size: 18px; }
+.back-to-top.visible { opacity: 1; pointer-events: auto; }
+.hidden { opacity: 0; pointer-events: none; position: absolute; left: -9999px; }
+@media (max-width: 768px) {
+  main { padding: 44px 20px 72px; }
+  .hero-title { font-size: 32px; }
+  .hero-subtitle { font-size: 16px; }
+  .section { padding: 26px; }
+  .footer { flex-direction: column; align-items: flex-start; }
+  .back-to-top { right: 18px; bottom: 24px; width: 48px; height: 48px; }
+}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="breadcrumb">
+      <a id="breadcrumbRoot" href="index.html">政策中心</a>
+      <span>/</span>
+      <span id="breadcrumbCurrent">隱私條款</span>
+    </div>
+    <div class="brand">
+      <div class="hero">
+        <div class="hero-title" id="heroTitle">隱私條款</div>
+        <div class="hero-subtitle" id="heroSubtitle">了解 King’s Ascend 如何在您的裝置上處理資料、保護遊玩紀錄，以及回覆您的需求。</div>
+      </div>
+    </div>
+  </header>
+
+  <section class="section" id="section-zh" data-lang="zh">
+    <div class="section-title">King's Ascend 隱私條款</div>
+    <div class="section-meta">最後更新日期：2025 年 11 月 8 日</div>
+    <div class="section-body">
+      <p>歡迎使用「King’s Ascend」。本條款說明我們在提供服務時處理資料的方式，請務必詳讀。</p>
+      <div>
+        <strong>一、資料蒐集與使用</strong>
+        <ul class="section-list">
+          <li>本遊戲僅在裝置上儲存遊戲狀態（盤面、分數、最佳紀錄、語言選擇等），不會上傳至伺服器。</li>
+          <li>我們不會蒐集可識別個人身份的資訊（如姓名、電子郵件、電話等）。</li>
+          <li>您若透過電子郵件或社群聯絡我們，資料僅用於回覆問題與客服支援。</li>
+        </ul>
+      </div>
+      <div>
+        <strong>二、資料儲存</strong>
+        <ul class="section-list">
+          <li>所有遊戲資料皆存放於您的行動裝置本地儲存區域。</li>
+        </ul>
+      </div>
+      <div>
+        <strong>三、第三方服務</strong>
+        <ul class="section-list">
+          <li>本遊戲目前未整合任何第三方分析、廣告或雲端儲存服務。</li>
+          <li>若未來新增第三方服務，我們將更新本條款並另行通知。</li>
+        </ul>
+      </div>
+      <div>
+        <strong>四、兒童隱私</strong>
+        <ul class="section-list">
+          <li>本遊戲為一般向產品，未特別設計給兒童使用。</li>
+          <li>未成年人使用時，請監護人協助閱讀並同意本條款。</li>
+        </ul>
+      </div>
+      <div>
+        <strong>五、本條款之更新</strong>
+        <ul class="section-list">
+          <li>我們可能因應功能調整或法規變更而更新本條款，並於本頁公告更新日期。</li>
+        </ul>
+      </div>
+      <p>若有任何疑問，歡迎聯絡 <a href="mailto:tyouxipindao@gmail.com" style="color:#2B1A12;font-weight:600;text-decoration:none;">tyouxipindao@gmail.com</a>。</p>
+    </div>
+  </section>
+
+  <section class="section hidden" id="section-en" data-lang="en">
+    <div class="section-title">King's Ascend Privacy Policy</div>
+    <div class="section-meta">Last Updated: November 8, 2025</div>
+    <div class="section-body">
+      <p>Welcome to “King’s Ascend.” This Privacy Policy describes how we handle information while delivering the experience. Please review it carefully.</p>
+      <div>
+        <strong>1. Data Collection & Use</strong>
+        <ul class="section-list">
+          <li>The Game stores gameplay state (board layout, score, best record, language preference, etc.) locally on your device. No data is uploaded to our servers.</li>
+          <li>We do not collect personally identifiable information such as your name, email address, or phone number.</li>
+          <li>If you contact us by email or social media, we will use the information you provide solely to respond to your inquiry or support request.</li>
+        </ul>
+      </div>
+      <div>
+        <strong>2. Storage</strong>
+        <ul class="section-list">
+          <li>All gameplay data remains inside your device’s local storage (SharedPreferences).</li>
+          <li>Removing or reinstalling the Game may erase this data because it is not synchronized elsewhere.</li>
+        </ul>
+      </div>
+      <div>
+        <strong>3. Third-Party Services</strong>
+        <ul class="section-list">
+          <li>The Game does not integrate third-party analytics, advertising networks, or cloud storage providers.</li>
+          <li>If we ever add such services, this Policy will be updated and the changes will be communicated here.</li>
+        </ul>
+      </div>
+      <div>
+        <strong>4. Children’s Privacy</strong>
+        <ul class="section-list">
+          <li>The Game is designed for a general audience and is not specifically directed at children.</li>
+          <li>Guardians should review this Policy with minors and ensure they understand the guidelines before playing.</li>
+        </ul>
+      </div>
+      <div>
+        <strong>5. Policy Updates</strong>
+        <ul class="section-list">
+          <li>We may revise this Policy when features change or legal requirements evolve. Updates will be posted here along with a revised “Last Updated” date.</li>
+        </ul>
+      </div>
+      <p>If you have any questions, please contact us at <a href="mailto:tyouxipindao@gmail.com" style="color:#2B1A12;font-weight:600;text-decoration:none;">tyouxipindao@gmail.com</a>.</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <a id="footerLink" href="index.html">返回政策中心</a>
+  </footer>
+</main>
+<button id="backToTop" class="back-to-top">▲</button>
+<script>
+const sections = document.querySelectorAll('[data-lang]');
+const breadcrumbRoot = document.getElementById('breadcrumbRoot');
+const breadcrumbCurrent = document.getElementById('breadcrumbCurrent');
+const heroTitle = document.getElementById('heroTitle');
+const heroSubtitle = document.getElementById('heroSubtitle');
+const footerLink = document.getElementById('footerLink');
+const backToTop = document.getElementById('backToTop');
+const titles = {
+  zh: {
+    breadcrumbRoot: '政策中心',
+    breadcrumbCurrent: '隱私條款',
+    heroTitle: '隱私條款',
+    heroSubtitle: '了解 King’s Ascend 如何在您的裝置上處理資料、保護遊玩紀錄，以及回覆您的需求。',
+    footerLink: '返回政策中心',
+    pageTitle: "King's Ascend 隱私條款"
+  },
+  en: {
+    breadcrumbRoot: 'Policy Hub',
+    breadcrumbCurrent: 'Privacy Policy',
+    heroTitle: 'Privacy Policy',
+    heroSubtitle: "Learn how King's Ascend handles gameplay data on your device and responds to your requests.",
+    footerLink: 'Back to Policy Hub',
+    pageTitle: "King's Ascend Privacy Policy"
+  }
+};
+function switchLanguage(lang) {
+  sections.forEach(section => {
+    if (section.dataset.lang === lang) {
+      section.classList.remove('hidden');
+    } else {
+      section.classList.add('hidden');
+    }
+  });
+  const copy = titles[lang];
+  breadcrumbRoot.textContent = copy.breadcrumbRoot;
+  breadcrumbCurrent.textContent = copy.breadcrumbCurrent;
+  heroTitle.textContent = copy.heroTitle;
+  heroSubtitle.textContent = copy.heroSubtitle;
+  footerLink.textContent = copy.footerLink;
+  document.title = copy.pageTitle;
+  localStorage.setItem('ka_preferred_lang', lang);
+}
+function resolveLanguage() {
+  const hashLang = location.hash.replace('#', '');
+  if (hashLang === 'en' || hashLang === 'zh') {
+    return hashLang;
+  }
+  const stored = localStorage.getItem('ka_preferred_lang');
+  return stored === 'en' ? 'en' : 'zh';
+}
+switchLanguage(resolveLanguage());
+window.addEventListener('hashchange', () => {
+  switchLanguage(resolveLanguage());
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+  requestAnimationFrame(() => document.body.classList.add('page-visible'));
+  footerLink.addEventListener('click', event => {
+    event.preventDefault();
+    const href = footerLink.getAttribute('href');
+    document.body.classList.remove('page-visible');
+    setTimeout(() => {
+      window.location.href = href;
+    }, 260);
+  });
+  backToTop.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+});
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 320) {
+    backToTop.classList.add('visible');
+  } else {
+    backToTop.classList.remove('visible');
+  }
+});
+</script>
+</body>
+</html>
